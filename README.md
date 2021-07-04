@@ -2,7 +2,7 @@
 
 This is THE best react app ever. 
 
-<p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large(1).gif" width="600"></p>
+<p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large (1).gif" width="600"></p>
 
 # Getting Started with Create React App
 

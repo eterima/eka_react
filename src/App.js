@@ -35,7 +35,7 @@ function App() {
           Have a great start into a great week!
           </p>
 
-          <p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large(1).gif" width="600"></p>
+          <p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large (1).gif" width="600"></p>
 
         <a
           className="App-link"
