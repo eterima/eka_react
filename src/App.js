@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+
         <p>  
           Hello epilots!
           </p>
@@ -35,7 +36,7 @@ function App() {
           Have a great start into a great week!
           </p>
 
-          <p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large (1).gif" width="600"></p>
+          <img alt="epilot" src="/Jobs GIF-downsized_large (1).gif" width="600"/>
 
         <a
           className="App-link"
