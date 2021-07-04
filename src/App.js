@@ -45,7 +45,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Leave a comment in fun-and-rockets
+
+          <p>
+          So which dev team needs another React expert? ;) 
+          </p>
+
+          Leave a comment in #fun-and-rockets. Open for offers!
         </a>
       </header>
     </div>
