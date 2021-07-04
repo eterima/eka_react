@@ -14,7 +14,7 @@ function App() {
           
           <p>
           Welcome to THE BEST React app anyone ever built! ... NOT. 
-          Well this was of course just a joke :D 
+          Well this was of course just a monday joke :D 
           </p>
       
           <p>
