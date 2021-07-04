@@ -16,7 +16,7 @@ function App() {
           </p>
       
           <p>
-          Next time I will release something awesome.
+          Next time I will release something awesome. Maybe. 
           </p>
 
           <p>
@@ -29,6 +29,10 @@ function App() {
           </p>
           <p>
           Because they couldn’t find a table!
+          </p>
+
+          <p>
+          Have a great start into a great week!
           </p>
         <a
           className="App-link"
