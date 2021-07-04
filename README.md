@@ -4,7 +4,7 @@
 
 This is THE best react app ever. 
 
-The latest deploy can be seen here [Best react app](https://epilotunicorn.netlify.app/) (deployed to Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/4d04a225-5608-41ad-8a5f-d4a78c7e66ff/deploy-status)](https://app.netlify.com/sites/epilotunicorn/deploys)).
+The latest deployment can be seen here [Best react app](https://epilotunicorn.netlify.app/) (deployed to Netlify [![Netlify Status](https://api.netlify.com/api/v1/badges/4d04a225-5608-41ad-8a5f-d4a78c7e66ff/deploy-status)](https://app.netlify.com/sites/epilotunicorn/deploys)).
 
 Nothing more to say ;) 
 
