@@ -34,6 +34,9 @@ function App() {
           <p>
           Have a great start into a great week!
           </p>
+
+          <p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large.gif" width="600"></p>
+
         <a
           className="App-link"
           href="https://epilot.slack.com/archives/C01E7K2RXPA"
