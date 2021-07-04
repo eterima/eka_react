@@ -1,4 +1,5 @@
 import logo from './logo.png';
+import gif from './Jobs GIF-downsized_large (1).gif';
 import './App.css';
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
           Have a great start into a great week!
           </p>
 
-          <img alt="epilot" src="/Jobs GIF-downsized_large (1).gif" width="600"/>
+          <img src={gif} className="Video" alt="gif"/>
 
         <a
           className="App-link"

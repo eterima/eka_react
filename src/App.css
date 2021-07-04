@@ -13,6 +13,11 @@
   }
 }
 
+.video {
+  height: 40vmin;
+  pointer-events: none;
+}
+
 .App-header {
   background-color: #060803;
   min-height: 100vh;
