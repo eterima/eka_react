@@ -15,8 +15,12 @@ function App() {
           <p>
           Welcome to THE BEST React app anyone ever built! ..... NOT. 
           Well this was of course just a monday joke :D 
-          But I mean it is still a React app :P 
           </p>
+
+          <p>
+          But I mean it is still a React app ;) 
+          </p>
+
       
           <p>
           Next time I will release something awesome. Maybe. 
