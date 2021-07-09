@@ -14,7 +14,7 @@ function App() {
           
           <p>
           Welcome to THE BEST React app anyone ever built! ..... NOT. 
-          Well this was of course just a monday joke :D 
+          Well this is of course just a small joke from the HR ;)
           </p>
 
           <p>
@@ -39,7 +39,7 @@ function App() {
           </p>
 
           <p>
-          Have a great start into a great week!
+          Have a nice day!
           </p>
 
           <img src={gif} className="Video" alt="gif"/>
