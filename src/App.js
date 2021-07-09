@@ -21,7 +21,7 @@ function App() {
           But I mean it is still a React app ;) 
           </p>
 
-      
+
           <p>
           Next time I will release something awesome. Maybe. 
           </p>
@@ -46,16 +46,16 @@ function App() {
 
         <a
           className="App-link"
-          href="https://epilot.slack.com/archives/C01E7K2RXPA"
+          href="https://promise.epilot.cloud/"
           target="_blank"
           rel="noopener noreferrer"
         >
 
           <p>
-          So which dev team needs another React expert? ;) 
+          Ready for take-off @ epilot? Check out our promise to all (future) epilots  
           </p>
 
-          Leave a comment in #fun-and-rockets. Open for offers!
+
         </a>
       </header>
     </div>
