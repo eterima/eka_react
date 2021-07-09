@@ -1,6 +1,9 @@
+import React, { Component } from 'react';
 import logo from './logo.png';
 import gif from './Jobs GIF-downsized_large (1).gif';
 import './App.css';
+import CommentBox from './CommentBox';
+import Comments from './Comments';
 
 
 function App() {
@@ -70,5 +73,67 @@ function App() {
     
   );
 }
+
+export default App;
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.handleAddComment = this.handleAddComment.bind(this);
+
+    this.state = {
+      comments: []
+    }
+  }
+  
+  componentDidMount() {
+    /*global Ably*/
+    const channel = Ably.channels.get('comments');
+  
+    channel.attach();
+      channel.once('attached', () => {
+        channel.history((err, page) => {
+          // create a new array with comments only in an reversed order (i.e old to new)
+          const comments = Array.from(page.items, item => item.data)
+  
+          this.setState({ comments });
+  
+          channel.subscribe((msg) => {
+            const commentObject = msg.data;
+            this.handleAddComment(commentObject);
+          })
+        });
+      });
+  }
+  
+
+  handleAddComment(comment) {
+    this.setState(prevState => {
+      return {
+        comments: prevState.comments.concat(comment)
+      };
+    });
+  }
+  
+  render()
+  
+   {
+    return (
+      <section className="section">
+        <div className="container">
+          <div className="columns">
+            <div className="column is-half is-offset-one-quarter">
+              <CommentBox />
+              <Comments comments={this.state.comments} />
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+}
+
+<CommentBox handleAddComment={this.handleAddComment} />
 
 export default App;
