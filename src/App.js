@@ -18,6 +18,10 @@ function App() {
           </p>
 
           <p>
+          Our Devs surely are doing much better stuff! 
+          </p>
+
+          <p>
           But I mean it is still a React app ;) 
           </p>
 
