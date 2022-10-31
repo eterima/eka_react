@@ -12,7 +12,7 @@ Nothing more to say ;)
 <p align="center"><img alt="epilot" src="/Jobs GIF-downsized_large (1).gif" width="600"></p>
 
 =======
->>>>>>> parent of a4f87fe (Update README.md)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
