@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # The BEST react app ever
 
 
