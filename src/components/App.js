@@ -6,7 +6,7 @@ import CommentBox from './CommentBox';
 import Comments from './Comments';
 
 
-function App() {
+function Myapp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -73,8 +73,7 @@ function App() {
     
   );
 }
-
-export default App;
+;
 
 class App extends Component {
   constructor(props) {

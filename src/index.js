@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
-require('./ably');
+require('../components/ably');
 
 ReactDOM.render(
   <React.StrictMode>
