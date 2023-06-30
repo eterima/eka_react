@@ -13,7 +13,7 @@ function Myapp() {
         <img src={logo} className="App-logo" alt="logo" />
 
         <p>  
-          Hello world TGIF!
+          Hello world, TGIF!
           </p>
           
           <p>
