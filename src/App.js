@@ -59,6 +59,18 @@ function App() {
           Ready for take-off @ epilot? Check out our promise to all (future) epilots  
           </p>
 
+<<<<<<< HEAD
+=======
+          import DOMPurify from "dompurify";
+
+          const myHTML = `<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="de_DE" data-type="horizontal" data-theme="dark" data-vanity="eterima"><a class="LI-simple-link" href='https://de.linkedin.com/in/eterima?trk=profile-badge'>Eka Terima</a></div>`;
+
+          const mySafeHTML = DOMPurify.sanitize(myHTML);
+
+          const App = () = > <div dangerouslySetInnerHTML={{ __html: mySafeHTML }} />;
+
+          
+>>>>>>> parent of 644a58d (Update App.js)
 
         </a>
       </header>
